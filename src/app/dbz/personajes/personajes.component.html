@@ -3,6 +3,7 @@
 <hr>
 <ul>
     <li *ngFor="let personaje of personajes">
+       <!-- el number es para darle diseño con la coma a los numeros de miles  -->
         {{personaje.nombre}} - {{personaje.poder| number}}
     </li>
 </ul>
